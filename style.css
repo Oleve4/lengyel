@@ -60,3 +60,9 @@ h1 {
     display: flex;
 
 }
+
+h1 h2 h3 {
+    font-size: 1.25rem;
+    font-size: clamp(1.25rem, 0.04807692307692313rem + 5.128205128205128vw, 3.125rem);
+}
+
