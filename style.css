@@ -47,13 +47,6 @@ h1 {
     display: flex;
 
 }
-
-h1 h2 h3 {
-    font-size: 1.25rem;
-    font-size: clamp(1.25rem, 0.04807692307692313rem + 5.128205128205128vw, 3.125rem);
-}
-
-
   
   .btn {
     margin: 10px;
@@ -120,3 +113,18 @@ h1 h2 h3 {
     color: #FFF;
     font-weight: bolder;
   }
+
+
+
+  @media screen and (max-width: 992px) {
+    .keszito, .szoveg, .btn{
+      width: 50%;
+    }
+  };
+
+  
+  @media screen and (max-width: 600px) {
+    .keszito, .szoveg, .btn{
+      width: 100%;
+    }
+  };
